@@ -81,9 +81,6 @@
 #' @importFrom ConsensusClusterPlus ConsensusClusterPlus
 #' @importFrom flowCore read.FCS compensate transform logicleTransform exprs 
 #'             transformList write.FCS 'exprs<-' keyword fr_append_cols
-#' @importFrom flowWorkspace gs_get_pop_paths gh_pop_get_indices gh_pop_get_data
-#'             gs_get_leaf_nodes
-#' @importFrom CytoML open_flowjo_xml flowjo_to_gatingset
 #' @importFrom igraph graph.adjacency minimum.spanning.tree layout.kamada.kawai
 #'             plot.igraph add.vertex.shape get.edges shortest.paths E V 'V<-'
 #'             igraph.shape.noclip
